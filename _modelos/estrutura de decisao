@@ -1,0 +1,9 @@
+// Solicita um número ao usuário
+const numero = Number(prompt("Digite um número:"));
+
+// Verifica se o número é maior do que 10
+if (numero > 10) {
+  alert("O número é maior do que 10.");
+} else {
+  alert("O número NÃO é maior do que 10.");
+}
